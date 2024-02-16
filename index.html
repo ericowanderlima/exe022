@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <title>Imagens de fundo</title>
+    <style>
+        div.fundo{
+            width: 300px;
+            height: 300px;
+            border:1px solid black;
+            border-radius: 10px;
+            display: inline-block;
+        }
+        body{
+            background-image: url(imagens/wallpaper002.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        #primeira{
+            background-image:linear-gradient(to bottom, red, orange) ;
+        }
+
+        #segunda{
+            background-image: url(imagens/pattern003.png);
+        }
+    </style>
+</head>
+<body>
+    <div class="fundo" id="primeira"></div>
+    <div class="fundo" id="segunda"></div>
+    <div class="fundo" id="terceira"></div>
+</body>
+</html>
