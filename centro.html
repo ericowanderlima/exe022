@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icone/favicon.ico" type="image/x-icon">
+    <title>Centralização</title>
+    <style>
+        body{
+            background-color: black;
+            margin: 0;
+            padding: 0;   
+        }
+
+        #container{
+            background-color: chartreuse;
+            background-image: url(imagens/wallpaper003.jpg);
+            background-position: center;
+            width: 95vw;
+            height: 100vh;
+            position: relative;
+            margin: auto;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        #conteudo{
+            width: 260px;
+            height: 260px;
+            background-color: transparent;
+            border-radius: 200px;
+            border: 2px solid rgba(0, 0, 0, 0.247);
+            box-shadow: 0 0 10px black;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            text-align: justify;
+            padding: 10px;
+            transform: translate(-33%, -90%);
+            font-weight: bold;
+            text-indent: 5px;   
+        }
+        
+        p{
+            margin-top: 80px;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Centralizando conteudo dentro de um container.</h1>
+    <main id="container">
+        <section id="conteudo">
+            <code>
+                <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea ducimus neque doloribus quasi eveniet a quidem pariatur soluta reprehenderit magnam et nobis eligendi ad dolor velit, consectetur suscipit, provident asperiores!</P>
+            </code>
+        </section>
+    </main>
+    
+</body>
+</html>
